@@ -25,6 +25,10 @@ TARGET_SCREEN_WIDTH := 2560
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    wifi_qcom.rc
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
